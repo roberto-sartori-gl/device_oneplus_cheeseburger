@@ -40,3 +40,6 @@ BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 -include vendor/oneplus/cheeseburger/BoardConfigVendor.mk
 
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
+
+# Inherit from the rs vendor directory
+-include vendor/rs/config/BoardConfigAOSP.mk
