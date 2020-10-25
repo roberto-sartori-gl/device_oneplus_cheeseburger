@@ -43,3 +43,5 @@ BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 -include vendor/oneplus/cheeseburger/BoardConfigVendor.mk
 
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
+
+SKIP_BOOT_JARS_CHECK := true
