@@ -45,3 +45,6 @@ BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 SKIP_BOOT_JARS_CHECK := true
+
+# Inherit from the rs vendor directory
+-include vendor/rs/config/BoardConfigAOSP.mk
