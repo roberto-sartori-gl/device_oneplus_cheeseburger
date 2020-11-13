@@ -41,3 +41,6 @@ PRODUCT_PACKAGES += \
 
 # Inherit from oneplus msm8998-common
 $(call inherit-product, device/oneplus/msm8998-common/common.mk)
+
+# Inherit from vendor/rs
+$(call inherit-product, vendor/rs/config/aosp_device.mk)
